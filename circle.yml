@@ -5,6 +5,7 @@
   machine:
     environment:
       ANDROID_HOME: /usr/local/android-sdk-linux
+      COVERALLS_REPO_TOKEN: gvQ4yBv9xD3shWcwhN8tthjCXDZsApBwr
 
   dependencies:
     cache_directories:
