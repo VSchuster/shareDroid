@@ -29,9 +29,6 @@
 
       # wait for it to have booted
       - circle-android wait-for-boot
-      - chmod +x gradlew
+      # - chmod +x gradlew
 
-      - ./gradlew build
-
-      - lint ./app --html ./app/build/outputs/result.html
-
+      # - ./gradlew
