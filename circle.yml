@@ -14,8 +14,6 @@
   test:
     override:
 
-     - lint app --html app/build/outputs/result.html
-
       # start the emulator
       - emulator -avd circleci-android22 -no-audio -no-window:
           background: true
@@ -26,4 +24,6 @@
 
       # wait for it to have booted
       - circle-android wait-for-boot
+
+      - lint app --html app/build/outputs/result.html
 
