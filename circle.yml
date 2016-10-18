@@ -14,7 +14,7 @@
   test:
     override:
 
-      - ./environmentSetup.sh
+      - ./scripts/environmentSetup.sh
 
       # start the emulator
       - emulator -avd circleci-android22 -no-audio -no-window:
