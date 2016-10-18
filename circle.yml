@@ -13,6 +13,9 @@
 
   test:
     override:
+
+     - lint app --html app/build/outputs/result.html
+
       # start the emulator
       - emulator -avd circleci-android22 -no-audio -no-window:
           background: true
